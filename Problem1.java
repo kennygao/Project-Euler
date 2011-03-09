@@ -19,10 +19,12 @@ public class Problem1 {
 		int fives = 5 * triangularNum(max / 5);
 		int fifteens = 15 * triangularNum(max / 15);
 
+		// trivial application of principle of inclusion/exclusion
 		System.out.println(threes + fives - fifteens);
 	}
 
 	private static int triangularNum(int n) {
+		// returns the sum of integers between 1 and n, inclusive
 		return n * (n + 1) / 2;
 	}
 

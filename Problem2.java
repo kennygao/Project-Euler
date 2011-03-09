@@ -19,6 +19,8 @@ public class Problem2 {
 		int b = 2;
 		int sum = 0;
 
+		// only every third Fibonacci number is even, so we can compress the
+		// math and iterate three times faster than a naive algorithm.
 		while (b < max) {
 			sum += b;
 			int tmp = a + 2 * b;
