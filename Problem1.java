@@ -1,6 +1,7 @@
+/**
+ * Project Euler Problem 1
+ */
 package me.phra.projecteuler;
-
-import java.util.Scanner;
 
 /**
  * @author kennygao
@@ -12,8 +13,7 @@ public class Problem1 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		int max = scanner.nextInt() - 1;
+		int max = 1000;
 
 		int threes = 3 * triangularNum(max / 3);
 		int fives = 5 * triangularNum(max / 5);
