@@ -20,6 +20,10 @@ public class Problem4 {
 
 		// impossible for a power of 10 to be a factor of a palindromic number
 		for (int a = ubound; a > lbound; a--) {
+			// subsequent values will only decrease
+			if (a * a < largest) {
+				break;
+			}
 			// avoid redundant checks for both a * b and b * a
 			for (int b = a; b > lbound; b--) {
 				if (isPalindromic(a * b) && a * b > largest) {
