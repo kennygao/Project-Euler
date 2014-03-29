@@ -1,7 +1,6 @@
 /**
  * Project Euler Problem 5
  */
-package me.phra.projecteuler;
 
 /**
  * @author kennygao
@@ -9,7 +8,7 @@ package me.phra.projecteuler;
 public class Problem5 {
 
     /**
-     * @param args
+     * @param args unused
      */
     public static void main(String[] args) {
         int lower = 1;

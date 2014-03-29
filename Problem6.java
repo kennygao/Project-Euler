@@ -1,7 +1,6 @@
 /**
  * Project Euler Problem 6
  */
-package me.phra.projecteuler;
 
 import java.util.stream.IntStream;
 
@@ -11,7 +10,7 @@ import java.util.stream.IntStream;
 public class Problem6 {
 
     /**
-     * @param args
+     * @param args unused
      */
     public static void main(String[] args) {
         explicit();
